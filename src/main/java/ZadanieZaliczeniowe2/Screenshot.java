@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class Screenshot {
-
     private WebDriver driver;
 
     public Screenshot(WebDriver driver) {
@@ -17,7 +16,7 @@ public class Screenshot {
         PageFactory.initElements(driver, this);
     }
 
-    public void MakeScreenshot()  throws IOException{
+    public void MakeScreenshot()  throws IOException {
         File orderConfirmation = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(orderConfirmation, new File("C:/Users/slawe/OneDrive/Obrazy/Order_Confirmation.png"));
     }

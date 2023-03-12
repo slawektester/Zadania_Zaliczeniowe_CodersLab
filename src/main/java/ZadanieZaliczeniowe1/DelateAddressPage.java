@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class DelateAddressPage {
-
     private WebDriver driver;
 
     public DelateAddressPage(WebDriver driver) {

@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class MyAccountPage {
-
     private WebDriver driver;
 
     public MyAccountPage(WebDriver driver) {

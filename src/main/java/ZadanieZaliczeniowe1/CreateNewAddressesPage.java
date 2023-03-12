@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class CreateNewAddressesPage {
-
     private WebDriver driver;
 
     public CreateNewAddressesPage(WebDriver driver) {

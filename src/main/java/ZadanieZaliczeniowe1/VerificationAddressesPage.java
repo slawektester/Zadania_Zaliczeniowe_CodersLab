@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class VerificationAddressesPage {
-
     private WebDriver driver;
 
     public VerificationAddressesPage(WebDriver driver) {
